@@ -15,7 +15,7 @@ class Dog
     end
 
     def self.clear_all
-        @@all = Array.new
+        @@all.clear
     end
 
     def self.print_all
